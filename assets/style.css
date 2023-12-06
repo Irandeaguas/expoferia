@@ -1,0 +1,93 @@
+
+    body{
+        background-color: rgba(0, 0, 0, 0.911);
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin: 20px;
+        padding: 0;
+    }
+
+    #particles-js {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+    
+    
+    .container{
+        display: grid;
+        width: 100%;
+ 
+    }
+    .text{
+        padding: 0px;
+        color: rgb(255, 255, 255);
+    }
+    h1{
+        font-size: 40px;
+        text-transform: uppercase;
+        
+    }
+    .proyecto{
+        width: 85%;
+        margin: 10px;
+        padding: 0px 20px 20px;
+        border-radius: 20px;
+        box-shadow: 5px 5px 3px 0px rgba(0, 0, 0, 0.75);
+    }
+    .gm{
+        background-color: black;
+        color: aliceblue;
+    }
+    .ss{
+        background-color: black;
+        color: aliceblue;
+    }
+    .sf{
+        background-color: white;
+        color: black;
+    }
+    .ce{
+        background-color: white;
+        color: black;
+    }
+    .titulo{
+        text-align: center;
+        
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .logo{
+        display: flex;
+    }
+
+    .flote{
+        transform: translateX(0px);
+    animation: botox 5s ease-out infinite;
+    }
+
+    @keyframes botox{
+    0%{
+        transform: translateY(0px);
+    }
+
+    50%{
+        transform: translateY(-15px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+    .lista{
+        margin: 0;
+    }
+    .logo img{
+        height: 100px;
+        width: auto;
+    }
+    p{
+        text-align: justify;
+        text-justify: inter-word;
+    }
